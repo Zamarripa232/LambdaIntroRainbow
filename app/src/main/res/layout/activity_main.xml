@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,38 +8,38 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button_"
+        android:id="@+id/button_red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/color_red" />
 
     <Button
-        android:id="@+id/button_"
+        android:id="@+id/button_orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/color_orange" />
 
     <Button
-        android:id="@+id/button_"
+        android:id="@+id/button_yellow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/color_yellow" />
 
     <Button
-        android:id="@+id/button_"
+        android:id="@+id/button_green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/color_green" />
 
     <Button
-        android:id="@+id/button_"
+        android:id="@+id/button_blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/color_blue" />
 
     <Button
-        android:id="@+id/button_"
+        android:id="@+id/button_indigo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/color_indigo" />
 </LinearLayout>
